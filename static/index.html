@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Home</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!---Link to my CSS file-->
+     <link href="jumbotron.css" rel="stylesheet" />
+     <!--Ensure the navbar stays at the top with no margin-->
+ <div class="navbar-inverse navbar-static-top">
+     <!--class for storing text across a bootstrap page-->
+        <div class="container">
+            <!--class stating that the navbar will be going across the top of the page--> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                  <!--navbrand here what has been pulled left using the below class to seperate it from the text-->
+                <a href="index.html" class="pull-left"><img src="CU.JPG" width="70px"/></a>
+            </div>
+            <!--allows the navbar to collapse when the screen becomes a small device-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Homepage</a></li>
+                    <!--start of the dropdown menu, it signifies that the menu wants to be toggled so that its not constantly down-->
+                    <!-- list of what will be in the dropdown menu-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Me <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="hobbies.html">Hobbies</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="RWP.html">Real World Project 2016</a></li>
+                                <li><a href="YOP.html">2014-2015 Projects</a></li>
+						    </ul>
+                            </li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                
+                </ul>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    </div>
+        <!--large container on center of website which helps text standout-->
+    <div class="container">
+        <div class="jumbotron">
+            <center><h1>Thomas Bassett</h1>
+            <p>Born and raised in the Wonderfully diverse city of Birmingham, a city rich in culture that for many years has been overlooked by the public that is slowly starting to get the recognition it deserves. I proudly present to you my online portfolio.</p>
+            <a href="profile.html" class="btn btn-default">About Me</a>
+            <a href="http://visitbirmingham.com/" class="btn btn-info">Birmingham</a></center>
+            
+        </div>
+        
+    </div>
+    <!--Fluid container so that it doesn't spill over the edges, the col-md-4 states how wide the container should be out of the 12 possible per row-->
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+            <h1>Welcome to my website</h1>
+            <p>Hello and welcome to my website, my name is Thomas Bassett, I am 20 years old and currently studying Bsc Business Information Technology at Coventry University. Currently in my second year I have developed many skills...</p>
+            <a href="education.html" class="btn btn-info">Read More</a>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            <h1>CRM System Complete</h1>
+            <p>Back in January 2016, My group were given the task of developing a software for the EC Futures team so that they could successfully manage their database of students who are going out on placements, the software we developed was a.... </p>
+            <a href="RWP.html" class="btn btn-info">Read More</a>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            <img src="CU.JPG" class="img-responsive" alt="Coventry University Logo">
+        </div>
+        
+        </div>
+        
+    </div>
+        
+    </div>
+    
+    
+    
+</body>
+
+</html>

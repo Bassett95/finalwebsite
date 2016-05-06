@@ -1,0 +1,51 @@
+.jumbotron{
+    background: rgba(200, 54, 54, 0.5); 
+    background-size: cover;
+    font-family: arial;
+    color:#fff;
+}
+
+
+.img-responsive{
+    width: 300px;
+    height: auto;
+}
+
+.navbar-inverse{
+    background-color: #0066ff;
+}
+
+.navbar-inverse .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color:#ffffff;
+}
+body {
+    background: url(background.JPG);
+    background-size:cover;
+}
+
+h1{
+    color:Blue;
+}
+
+.row{
+    color:#fff;
+}
+
+.carousel-inner{
+    width:auto;
+    height:254px;
+    max-height: 254%
+    
+}
+.carousel-inner > .item > img {
+  min-width: 100%;
+  height:254px;
+}
+.comment{
+    font-size: 31px
+}
